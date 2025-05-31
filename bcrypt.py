@@ -67,13 +67,3 @@ def fbcryptVerify(password: str, hashed: str) -> bool:
     except Exception as e:
         print("Verify: ", e)
         return False
-
-hashed = bcryptHash("mypassword", cost=12)
-print("Hashed:", hashed)
-print("Verify:", bcryptVerify("mypassword", hashed))
-print("Verify (wrong):", bcryptVerify("wrongpassword", hashed))
-
-hashed = fbcryptHash("mypassword", cost=12)
-print("Hashed:", hashed)
-print("Verify:", fbcryptVerify("mypassword", hashed))
-print("Verify (Wrong):", fbcryptVerify("wrongpass", hashed))
