@@ -19,7 +19,7 @@ print("Verify (Wrong):", fbcryptVerify("wrongpass", hashed))
 ## Ex Output
 ### Bcrypt
 - Password is "mypassword"
-- Wrong Password is "wrongpass"
+- Wrong Password is "wrongpassword"
 ```bash
 Hashed: 12$u+q2uy4U0yfe/9SPL+Pjzg==$u+q2uy4U0yfe/9SPL+Pjzm15cGFzc3dvcmQkmMGwXl7a4n9N ... so long
 Verify: True
