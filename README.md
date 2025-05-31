@@ -1,4 +1,4 @@
-# Py-bcrypt
+# bcrypt.py
 
 ## How to use
 ### Bcrypt
@@ -33,3 +33,5 @@ Hashed: 12$T32PMw1nUHWO+qF5GNOU3g==$V87QFoBtGUAEHckq7xe5sSaGCn2S3IlfvsF58plcvuE=
 Verify: True
 Verify (Wrong): False
 ```
+# purebcrypt.py
+## How to use in file purebcrypt.py
